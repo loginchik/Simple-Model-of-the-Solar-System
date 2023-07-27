@@ -1,4 +1,4 @@
-# Скорость движения Земли
+# Earth velocity
 earth_s = 0.05
 
 
@@ -6,7 +6,7 @@ def rel_speed(days):
     return float(str(365 / days * earth_s))
 
 
-# Скорости движения планет относительно скорости движения Земли
+# The velocity of the planets relative to the velocity of the Earth
 mercury_s = rel_speed(88)
 venus_s = rel_speed(255)
 mars_s = rel_speed(687)
