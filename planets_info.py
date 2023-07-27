@@ -1,9 +1,21 @@
-# Earth velocity
+# The Earth's velocity
 earth_s = 0.05
 
+def rel_speed(days: int, earth_speed: float = earth_s) -> float:
+    """Calculates the velocity of planet relative to the velocity of the Earth.
+    The Earth's cycle is taken as 365 days per 1 round.
 
-def rel_speed(days):
-    return float(str(365 / days * earth_s))
+    Args:
+        days (int): the number of earth days during which the planet 
+        makes one revolution around the sun
+        
+        earth_speed (float): the Earth's velocity. Defaults to 0.05.
+
+    Returns:
+        float: the calculated velocity
+    """
+    
+    return float(str(365 / days * earth_speed))
 
 
 # The velocity of the planets relative to the velocity of the Earth
