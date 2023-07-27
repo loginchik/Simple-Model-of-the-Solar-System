@@ -1,0 +1,34 @@
+{
+    "mercury": {
+      "revolution": 88,
+      "distance": 50
+    },
+    "venus": {
+      "revolution": 255,
+      "distance": 90
+    },
+    "earth": {
+      "revolution": 365,
+      "distance": 130
+    },
+    "mars": {
+      "revolution": 687,
+      "distance": 170
+    },
+    "jupiter": {
+      "revolution": 4332,
+      "distance": 210
+    },
+    "saturn": {
+      "revolution": 10759,
+      "distance": 250
+    },
+    "uran": {
+      "revolution": 30688,
+      "distance": 300
+    },
+    "neptun": {
+      "revolution": 60182,
+      "distance": 350
+    }
+  }
