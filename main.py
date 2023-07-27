@@ -1,7 +1,7 @@
 import sys
 import pygame
 import json
-from planet_class import sun, planets, planet_distances  
+from create_objects import sun, planets, planet_distances  
 
 with open('data/colors.json') as colors_json_file: colors = json.load(colors_json_file)
 default_planets_color = (192, 192, 192)
